@@ -115,3 +115,7 @@ Output for the input example 1.
 * Place your codes in a folder in your home directory, named: `hw1` (Failure to do so will cause your program to have a zero grade due to inability for doing automated grading).
 * Your program should not produce any unexpected output when it is doing intermediate calculations because doing so will interfere with automated grading and some test cases will fail.
 * You can not assume a maximum number of lines in the input file.
+
+## Miscellaneous
+
+* A good explanation on [how to use c++ parameters from the command-line](http://www.site.uottawa.ca/~lucia/courses/2131-05/labs/Lab3/CommandLineArguments.html)
