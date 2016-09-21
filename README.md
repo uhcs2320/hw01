@@ -75,7 +75,7 @@ Rules to combine notifications:
 
   3. First special case: Any notification `Approve-reservation` that is followed (either immediately or after one or more lines) by a corresponding `Approve-reservation(Cancelled)` will require that both notifications be eliminated. See example of `Amelia Approve-reservation 7669`. The "message" has to match, and the "person" has to match.
 
-  4. Second special case: Any notification `Approve-purchase-order` that is followed (either immediately or after one or more lines) by a corresponding `Approve-purchase-order-cancellation` will require that the first notification be eliminated. See example of `Miranda Purchase-order-cancellation D-9076`. The "message" has to match, but the "person" does not have to match (such as `Owen` in this example). Any intermediate notification `Purchase-order-revise` with a matching "message" also needs to be eliminated (regardless of whether "person" was a match).
+  4. Second special case: Any notification `Approve-purchase-order` that is followed (either immediately or after one or more lines) by a corresponding `Purchase-order-cancellation` will require that the first notification be eliminated. See example of `Miranda Purchase-order-cancellation D-9076`. The "message" has to match, but the "person" does not have to match (such as `Owen` in this example). Any intermediate notification `Purchase-order-revise` with a matching "message" also needs to be eliminated (regardless of whether "person" was a match).
 
 Rules to combine input files:
 
